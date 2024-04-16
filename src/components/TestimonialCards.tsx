@@ -41,15 +41,17 @@ function MusicTestimonialCards() {
    
 
     return (
-        <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+        <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.08]  items-center justify-center relative overflow-hidden">
         <h2 className="text-3xl font-bold text-center mb-8 z-10">
-            Hear our Harmony:Voices of success
+            Hear our Harmony : Voices of success
         </h2>
+        <div>
         <InfiniteMovingCards
           items={musicSchoolTestimonials}
           direction="right"
           speed="slow"
         />
+        </div>
       </div>
     )
 }
